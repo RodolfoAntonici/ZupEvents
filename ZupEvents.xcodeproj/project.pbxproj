@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55463CB203B355C00A2A778 /* UICollectionViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463C2203B355B00A2A778 /* UICollectionViewCellExtension.swift */; };
+		B55463CC203B355C00A2A778 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463C3203B355B00A2A778 /* UIStoryboardExtension.swift */; };
+		B55463CD203B355C00A2A778 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463C4203B355B00A2A778 /* UITableViewExtension.swift */; };
+		B55463CE203B355C00A2A778 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463C5203B355C00A2A778 /* UITableViewCellExtension.swift */; };
+		B55463CF203B355C00A2A778 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463C6203B355C00A2A778 /* UIImageExtension.swift */; };
+		B55463D0203B355C00A2A778 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463C7203B355C00A2A778 /* UICollectionViewExtension.swift */; };
+		B55463D1203B355C00A2A778 /* UINibExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463C8203B355C00A2A778 /* UINibExtension.swift */; };
+		B55463D2203B355C00A2A778 /* UITableViewHeaderFooterViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463C9203B355C00A2A778 /* UITableViewHeaderFooterViewExtension.swift */; };
+		B55463D7203B359300A2A778 /* UIPanGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463D6203B359300A2A778 /* UIPanGestureExtension.swift */; };
+		B55463D9203B35B700A2A778 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463D8203B35B700A2A778 /* UIColorExtension.swift */; };
+		B55463DB203B35C100A2A778 /* UIGestureRecognizerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463DA203B35C000A2A778 /* UIGestureRecognizerExtension.swift */; };
+		B55463DD203B35CB00A2A778 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463DC203B35CB00A2A778 /* UIDeviceExtension.swift */; };
+		B55463DF203B35D400A2A778 /* UIPinchGestureRecognizerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463DE203B35D400A2A778 /* UIPinchGestureRecognizerExtension.swift */; };
+		B55463E1203B35DE00A2A778 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463E0203B35DE00A2A778 /* UIScreenExtension.swift */; };
+		B55463E3203B361700A2A778 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55463E2203B361700A2A778 /* Direction.swift */; };
 		B5BAADCF203B330800671C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAADCE203B330800671C6F /* AppDelegate.swift */; };
-		B5BAADD1203B330800671C6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAADD0203B330800671C6F /* ViewController.swift */; };
 		B5BAADD4203B330800671C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BAADD2203B330800671C6F /* Main.storyboard */; };
 		B5BAADD6203B330800671C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BAADD5203B330800671C6F /* Assets.xcassets */; };
 		B5BAADD9203B330800671C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BAADD7203B330800671C6F /* LaunchScreen.storyboard */; };
@@ -18,9 +32,23 @@
 /* Begin PBXFileReference section */
 		37BF26C2B50641B8A322B866 /* Pods-ZupEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZupEvents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZupEvents/Pods-ZupEvents.debug.xcconfig"; sourceTree = "<group>"; };
 		96EB3EEC49F69C839807DE84 /* Pods_ZupEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZupEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55463C2203B355B00A2A778 /* UICollectionViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtension.swift; sourceTree = "<group>"; };
+		B55463C3203B355B00A2A778 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		B55463C4203B355B00A2A778 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		B55463C5203B355C00A2A778 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
+		B55463C6203B355C00A2A778 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		B55463C7203B355C00A2A778 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		B55463C8203B355C00A2A778 /* UINibExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINibExtension.swift; sourceTree = "<group>"; };
+		B55463C9203B355C00A2A778 /* UITableViewHeaderFooterViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewHeaderFooterViewExtension.swift; sourceTree = "<group>"; };
+		B55463D6203B359300A2A778 /* UIPanGestureExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPanGestureExtension.swift; sourceTree = "<group>"; };
+		B55463D8203B35B700A2A778 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		B55463DA203B35C000A2A778 /* UIGestureRecognizerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizerExtension.swift; sourceTree = "<group>"; };
+		B55463DC203B35CB00A2A778 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		B55463DE203B35D400A2A778 /* UIPinchGestureRecognizerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPinchGestureRecognizerExtension.swift; sourceTree = "<group>"; };
+		B55463E0203B35DE00A2A778 /* UIScreenExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
+		B55463E2203B361700A2A778 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		B5BAADCB203B330800671C6F /* ZupEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZupEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BAADCE203B330800671C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5BAADD0203B330800671C6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5BAADD3203B330800671C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5BAADD5203B330800671C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5BAADD8203B330800671C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +85,68 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B55463BC203B34B500A2A778 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B5BAADD2203B330800671C6F /* Main.storyboard */,
+				B5BAADCE203B330800671C6F /* AppDelegate.swift */,
+				B5BAADD5203B330800671C6F /* Assets.xcassets */,
+				B5BAADD7203B330800671C6F /* LaunchScreen.storyboard */,
+				B5BAADDA203B330800671C6F /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B55463BD203B34E600A2A778 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		B55463BE203B350800A2A778 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B55463BF203B351900A2A778 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B55463C0203B352900A2A778 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				B55463E2203B361700A2A778 /* Direction.swift */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		B55463C1203B354500A2A778 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B55463C2203B355B00A2A778 /* UICollectionViewCellExtension.swift */,
+				B55463C7203B355C00A2A778 /* UICollectionViewExtension.swift */,
+				B55463D8203B35B700A2A778 /* UIColorExtension.swift */,
+				B55463DC203B35CB00A2A778 /* UIDeviceExtension.swift */,
+				B55463DA203B35C000A2A778 /* UIGestureRecognizerExtension.swift */,
+				B55463C6203B355C00A2A778 /* UIImageExtension.swift */,
+				B55463C8203B355C00A2A778 /* UINibExtension.swift */,
+				B55463D6203B359300A2A778 /* UIPanGestureExtension.swift */,
+				B55463DE203B35D400A2A778 /* UIPinchGestureRecognizerExtension.swift */,
+				B55463E0203B35DE00A2A778 /* UIScreenExtension.swift */,
+				B55463C3203B355B00A2A778 /* UIStoryboardExtension.swift */,
+				B55463C5203B355C00A2A778 /* UITableViewCellExtension.swift */,
+				B55463C4203B355B00A2A778 /* UITableViewExtension.swift */,
+				B55463C9203B355C00A2A778 /* UITableViewHeaderFooterViewExtension.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B5BAADC2203B330800671C6F = {
 			isa = PBXGroup;
 			children = (
@@ -78,12 +168,12 @@
 		B5BAADCD203B330800671C6F /* ZupEvents */ = {
 			isa = PBXGroup;
 			children = (
-				B5BAADCE203B330800671C6F /* AppDelegate.swift */,
-				B5BAADD0203B330800671C6F /* ViewController.swift */,
-				B5BAADD2203B330800671C6F /* Main.storyboard */,
-				B5BAADD5203B330800671C6F /* Assets.xcassets */,
-				B5BAADD7203B330800671C6F /* LaunchScreen.storyboard */,
-				B5BAADDA203B330800671C6F /* Info.plist */,
+				B55463BC203B34B500A2A778 /* Application */,
+				B55463BF203B351900A2A778 /* Extensions */,
+				B55463C1203B354500A2A778 /* Models */,
+				B55463BE203B350800A2A778 /* Services */,
+				B55463BD203B34E600A2A778 /* Stories */,
+				B55463C0203B352900A2A778 /* Subclasses */,
 			);
 			path = ZupEvents;
 			sourceTree = "<group>";
@@ -221,8 +311,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5BAADD1203B330800671C6F /* ViewController.swift in Sources */,
+				B55463DD203B35CB00A2A778 /* UIDeviceExtension.swift in Sources */,
+				B55463E1203B35DE00A2A778 /* UIScreenExtension.swift in Sources */,
+				B55463CB203B355C00A2A778 /* UICollectionViewCellExtension.swift in Sources */,
+				B55463CC203B355C00A2A778 /* UIStoryboardExtension.swift in Sources */,
+				B55463D7203B359300A2A778 /* UIPanGestureExtension.swift in Sources */,
+				B55463D0203B355C00A2A778 /* UICollectionViewExtension.swift in Sources */,
+				B55463E3203B361700A2A778 /* Direction.swift in Sources */,
+				B55463DF203B35D400A2A778 /* UIPinchGestureRecognizerExtension.swift in Sources */,
+				B55463D2203B355C00A2A778 /* UITableViewHeaderFooterViewExtension.swift in Sources */,
+				B55463D9203B35B700A2A778 /* UIColorExtension.swift in Sources */,
+				B55463D1203B355C00A2A778 /* UINibExtension.swift in Sources */,
+				B55463CE203B355C00A2A778 /* UITableViewCellExtension.swift in Sources */,
+				B55463DB203B35C100A2A778 /* UIGestureRecognizerExtension.swift in Sources */,
 				B5BAADCF203B330800671C6F /* AppDelegate.swift in Sources */,
+				B55463CD203B355C00A2A778 /* UITableViewExtension.swift in Sources */,
+				B55463CF203B355C00A2A778 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV4BNXV6P6;
-				INFOPLIST_FILE = ZupEvents/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZupEvents/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.rantonici.ZupEvents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,7 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV4BNXV6P6;
-				INFOPLIST_FILE = ZupEvents/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZupEvents/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.rantonici.ZupEvents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
